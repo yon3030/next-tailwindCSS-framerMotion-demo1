@@ -17,14 +17,14 @@ const Header = () => {
             <motion.span
               initial={{ opacity: '0', y: '100%' }}
               animate={{ opacity: '1', y: 0 }}
-              transition={{ type: 'spring', duration: 0.8, delay: 0.6 }}
+              transition={{ type: 'spring', duration: 0.8, delay: 0.3 }}
             >
               Vadim
             </motion.span>
             <motion.span
               initial={{ opacity: '0', y: '100%' }}
               animate={{ opacity: '1', y: 0 }}
-              transition={{ type: 'spring', duration: 0.8, delay: 0.7 }}
+              transition={{ type: 'spring', duration: 0.8, delay: 0.4 }}
             >
               Ghedreutan
             </motion.span>
@@ -33,7 +33,7 @@ const Header = () => {
             className="mt-3 flex items-center justify-end space-x-4 text-sm text-gray-900"
             initial={{ opacity: '0', y: '100%' }}
             animate={{ opacity: '1', y: '0' }}
-            transition={{ type: 'spring', duration: 0.8, delay: 0.8 }}
+            transition={{ type: 'spring', duration: 0.8, delay: 0.5 }}
           >
             <span className="w-8 border-t-4 border-[#F41E1D]"></span>
             <span className="text-base">Web dev</span>
@@ -46,7 +46,7 @@ const Header = () => {
               whileTap={{ scale: 0.9 }}
               initial={{ transform: 'scale(0)' }}
               animate={{ scale: [0, 1, 1.1, 1] }}
-              transition={{ type: 'spring', duration: 0.8, delay: 0.3 }}
+              transition={{ type: 'spring', duration: 0.8, delay: 0.6 }}
             >
               <FaGithub
                 className="h-9 w-9 cursor-pointer text-gray-900 
@@ -58,7 +58,7 @@ const Header = () => {
               whileTap={{ scale: 0.9 }}
               initial={{ transform: 'scale(0)' }}
               animate={{ scale: [0, 1, 1.1, 1] }}
-              transition={{ type: 'spring', duration: 0.8, delay: 0.4 }}
+              transition={{ type: 'spring', duration: 0.8, delay: 0.7 }}
             >
               <FaLinkedin
                 className="h-9 w-9 cursor-pointer text-gray-900
@@ -70,7 +70,7 @@ const Header = () => {
               whileTap={{ scale: 0.9 }}
               initial={{ transform: 'scale(0)' }}
               animate={{ scale: [0, 1, 1.1, 1] }}
-              transition={{ type: 'spring', duration: 0.8, delay: 0.5 }}
+              transition={{ type: 'spring', duration: 0.8, delay: 0.8 }}
             >
               <FaInstagram
                 className="h-9 w-9 cursor-pointer text-gray-900
