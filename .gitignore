@@ -12,6 +12,8 @@
 /.next/
 /out/
 
+profile-cms/node_modules
+
 # production
 /build
 
