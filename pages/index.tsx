@@ -7,7 +7,7 @@ import Seo from '../components/Seo'
 
 const Home: NextPage = () => {
   return (
-    <div className="wrapper">
+    <div>
       <Seo
         title="Vadim Ghedreutan | Developer"
         description="You need a website for your startup or business?"
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
             <Clients
               title="vadimghedreutan.io"
               description="NextJS, Tailwind, Sanity"
-              link="https://vadimghedreutan.io"
+              link="https://github.com/vadimghedreutan/VGProfile2.2"
               createdYear={2022}
               projectNumber={3}
               image="/personalwebsite.png"
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
             <Clients
               title="fitnesstime-pf.de"
               description="Design - Figma"
-              link="https://vadimghedreutan.io"
+              link="https://fitnesstime-pf.de"
               createdYear={2021}
               projectNumber={4}
               image="/fitnesstimewebsite.png"

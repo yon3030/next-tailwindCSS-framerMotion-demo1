@@ -37,7 +37,7 @@ export default function Projects({ posts }: PostsProps) {
         description="You need a website for your startup or business?"
       />
       <motion.section
-        className="min-h-screen bg-[#3CAB87]"
+        className="min-h-screen bg-black"
         initial="hidden"
         animate="enter"
         exit="exit"
@@ -53,7 +53,7 @@ export default function Projects({ posts }: PostsProps) {
               </div>
             </div>
             <div className="col-span-3">
-              <div className="grid md:grid-cols-2 xl:grid-cols-4">
+              <div className="grid md:grid-cols-2 xl:grid-cols-3">
                 {posts.map((post) => (
                   <ProjectCard
                     key={post._id}
