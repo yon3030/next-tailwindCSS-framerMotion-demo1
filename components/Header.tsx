@@ -13,17 +13,17 @@ const Header = () => {
           <MdMarkEmailRead className="h-8 w-8 cursor-pointer text-white" />
         </div>
         <div>
-          <h1 className="flex flex-col text-6xl font-bold text-gray-900 lg:text-9xl">
+          <h1 className="flex flex-col text-6xl font-bold text-gray-900 lg:text-8xl">
             <motion.span
-              initial={{ opacity: '0', y: '100%' }}
-              animate={{ opacity: '1', y: 0 }}
-              transition={{ type: 'spring', duration: 0.8, delay: 0.3 }}
+              initial={{ transform: 'scale(0)' }}
+              animate={{ scale: [0, 1.1, 1] }}
+              transition={{ type: 'spring', duration: 0.6, delay: 0.3 }}
             >
               Vadim
             </motion.span>
             <motion.span
-              initial={{ opacity: '0', y: '100%' }}
-              animate={{ opacity: '1', y: 0 }}
+              initial={{ transform: 'scale(0)' }}
+              animate={{ scale: [0, 1.1, 1] }}
               transition={{ type: 'spring', duration: 0.8, delay: 0.4 }}
             >
               Ghedreutan
@@ -31,8 +31,8 @@ const Header = () => {
           </h1>
           <motion.h3
             className="mt-3 flex items-center justify-end space-x-4 text-sm text-gray-900"
-            initial={{ opacity: '0', y: '100%' }}
-            animate={{ opacity: '1', y: '0' }}
+            initial={{ transform: 'scale(0)' }}
+            animate={{ scale: [0, 1.1, 1] }}
             transition={{ type: 'spring', duration: 0.8, delay: 0.5 }}
           >
             <span className="w-8 border-t-4 border-[#F41E1D]"></span>
