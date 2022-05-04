@@ -44,7 +44,9 @@ function Clients({
           </motion.div>
         </div>
 
-        <div className={`bg-projects-clr-${bgColor} aspect-video p-2`}>
+        <div
+          className={`bg-projects-clr-${bgColor} flex aspect-video items-center p-2`}
+        >
           <img
             src={image}
             alt=""
