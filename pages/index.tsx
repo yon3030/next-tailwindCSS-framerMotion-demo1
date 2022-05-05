@@ -7,7 +7,7 @@ import Seo from '../components/Seo'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="wrapper">
       <Seo
         title="Vadim Ghedreutan | Developer"
         description="You need a website for your startup or business?"
