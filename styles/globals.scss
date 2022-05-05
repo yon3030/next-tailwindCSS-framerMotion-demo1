@@ -13,8 +13,7 @@
 body {
   	font-family: 'Inter', sans-serif;
   	color: white;
-  	background-color: black;
-  	min-height: -webkit-fill-available;
+  	background-color: var(--first-clr);
 	min-height: 100vh;
 }
 
