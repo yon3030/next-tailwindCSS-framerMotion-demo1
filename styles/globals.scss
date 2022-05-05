@@ -48,6 +48,10 @@ body {
   background-color: #E9C3B8;
 }
 
+main, footer {
+	background-color: var(--second-clr);
+}
+
 .cta {
   display: flex;
   align-items: center;
