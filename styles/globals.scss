@@ -17,13 +17,6 @@ body {
 	min-height: 100vh;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
-    min-height: 100vh;
-}
-
 .bg-first-clr {
   background-color: var(--first-clr);
 }
@@ -46,10 +39,6 @@ body {
 
 .bg-projects-clr-fourth {
   background-color: #E9C3B8;
-}
-
-main, footer {
-	background-color: var(--second-clr);
 }
 
 .cta {

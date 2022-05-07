@@ -7,8 +7,8 @@ const Header = () => {
     <header className="bg-first-clr">
       <div className="relative mx-auto flex h-[60vh] max-w-7xl flex-col items-center justify-center p-5">
         <div
-          className="bg-red-clr absolute top-8 left-4 flex h-20 w-20 
-        items-center justify-center rounded-full"
+          className="bg-red-clr absolute top-8 left-4 flex h-24 w-24 items-center justify-center  
+        rounded-full sm:h-28 sm:w-28"
         >
           <MdMarkEmailRead className="h-8 w-8 cursor-pointer text-white" />
         </div>
