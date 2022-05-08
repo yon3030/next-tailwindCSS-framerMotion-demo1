@@ -17,11 +17,11 @@ const Home: NextPage = () => {
       <Header />
       <main className="mx-auto 3xl:max-w-7xl">
         <div className="mx-3">
-          <div className="relative grid sm:grid-cols-2">
+          <div className="relative grid lg:grid-cols-2">
             <h1 className=" absolute -top-14 left-4 text-7xl font-bold text-black  sm:-top-20 sm:text-8xl">
               Projects.
             </h1>
-            <div className="bg-projects-clr-first sm:col-span-2">
+            <div className="bg-projects-clr-first lg:col-span-2">
               <Clients
                 title="tofanconsult.de"
                 description="NextJS, Sass, Tailwind, Framer motion, Prismic"
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
                 image="/personalwebsite.png"
               />
             </div>
-            <div className="bg-projects-clr-fourth sm:col-span-2">
+            <div className="bg-projects-clr-fourth lg:col-span-2">
               <Clients
                 title="fitnesstime-pf.de"
                 description="Design - Figma"
