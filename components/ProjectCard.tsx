@@ -7,15 +7,12 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ title, img, description, link }: ProjectCardProps) => {
   return (
-    <a href={link} className="bg-[whitesmoke] p-1 sm:p-2">
-      <div className="card">
-        <img src={img} alt="" />
-        <div className="card-content">
-          <div className="card-title text-sm text-gray-500">{title}</div>
-          <div className="card-description truncate pt-1 text-xs text-gray-500 sm:text-sm">
-            {description}
-          </div>
-        </div>
+    <a href={link}>
+      <img src={img} alt="" className="border-[.8px] border-gray-900 p-1" />
+
+      <div className="py-3">
+        <h3 className="text-2xl">{title} - </h3>
+        <p>{description}</p>
       </div>
     </a>
   )
