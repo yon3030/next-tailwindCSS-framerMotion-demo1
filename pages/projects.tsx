@@ -47,12 +47,13 @@ export default function Projects({ posts }: PostsProps) {
         <div className="mx-auto max-w-7xl p-5">
           <div className="relative flex items-center justify-between">
             <div>
-              <div
+              <a
+                href="mailto:vadim.ghedreutan@gmail.com"
                 className="bg-red-clr absolute top-0 left-0 flex h-20 w-20 items-center justify-center  
         rounded-full sm:h-28 sm:w-28"
               >
                 <MdMarkEmailRead className="h-8 w-8 cursor-pointer text-white" />
-              </div>
+              </a>
             </div>
             <div>
               <Link href="/">
@@ -60,7 +61,7 @@ export default function Projects({ posts }: PostsProps) {
               </Link>
             </div>
           </div>
-          <div className="my-12 w-full text-center">
+          <div className="my-20 w-full text-center">
             <h1 className="text-6xl font-bold">Projects.</h1>
           </div>
 
