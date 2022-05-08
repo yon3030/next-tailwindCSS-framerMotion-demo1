@@ -24,12 +24,6 @@ interface PostsProps {
   posts: IPost[]
 }
 
-const variants = {
-  hidden: { opacity: 0 },
-  enter: { opacity: 1 },
-  exit: { opacity: 0 },
-}
-
 export default function Projects({ posts }: PostsProps) {
   return (
     <>
@@ -37,23 +31,21 @@ export default function Projects({ posts }: PostsProps) {
         title="Vadim Ghedreutan | Portfolio"
         description="You need a website for your startup or business?"
       />
-      <motion.section
-        className="min-h-screen text-gray-900"
-        initial="hidden"
-        animate="enter"
-        exit="exit"
-        variants={variants}
-      >
+      <section className="min-h-screen text-gray-900">
         <div className="mx-auto max-w-7xl p-5">
           <div className="relative flex items-center justify-between">
             <div>
-              <a
+              <motion.a
                 href="mailto:vadim.ghedreutan@gmail.com"
                 className="bg-red-clr absolute top-0 left-0 flex h-20 w-20 items-center justify-center  
         rounded-full sm:h-28 sm:w-28"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0 }}
+                transition={{ type: 'spring', duration: 2 }}
               >
                 <MdMarkEmailRead className="h-8 w-8 cursor-pointer text-white" />
-              </a>
+              </motion.a>
             </div>
             <div>
               <Link href="/">
@@ -62,7 +54,15 @@ export default function Projects({ posts }: PostsProps) {
             </div>
           </div>
           <div className="my-20 w-full text-center">
-            <h1 className="text-6xl font-bold">Projects.</h1>
+            <motion.h1
+              className="text-6xl font-bold"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0 }}
+              transition={{ type: 'spring', duration: 2, delay: 0.1 }}
+            >
+              Projects.
+            </motion.h1>
           </div>
 
           <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
@@ -77,7 +77,7 @@ export default function Projects({ posts }: PostsProps) {
             ))}
           </div>
         </div>
-      </motion.section>
+      </section>
     </>
   )
 }

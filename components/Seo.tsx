@@ -13,6 +13,7 @@ export default function Seo({ title, description }: IHead) {
       <meta property="og:title" content={title} />
       <meta property="og:image" content="/logo-meta.png" />
       <meta property="og:image:secure_url" content="/logo-meta.png" />
+      <meta property="og:description" content={description} />
       <meta name="twitter:image" content="/logo-meta.png" />
       <meta name="twitter:image:src" content="/logo-meta.png" />
 
