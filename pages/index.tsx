@@ -4,8 +4,6 @@ import { ImArrowRight2 } from 'react-icons/im'
 import Footer from '../components/Footer'
 import Clients from '../components/Clients'
 import Seo from '../components/Seo'
-import { motion } from 'framer-motion'
-import { ImArrowDownLeft2 } from 'react-icons/im'
 
 const Home: NextPage = () => {
   return (

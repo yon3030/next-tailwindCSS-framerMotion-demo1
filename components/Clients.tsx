@@ -20,7 +20,7 @@ function Clients({ title, description, createdYear, image, link }: Project) {
           <span>{createdYear}</span>
         </div>
         <div className="px-2">
-          <h3 className="text-4xl font-semibold">{title}</h3>
+          <h3 className="text-2xl font-semibold sm:text-4xl">{title}</h3>
         </div>
         <motion.div
           initial={{ opacity: '0', y: '-100%' }}
@@ -38,7 +38,7 @@ function Clients({ title, description, createdYear, image, link }: Project) {
         duration-500 ease-in-out group-hover:scale-105 sm:h-[35vh]"
         />
       </div>
-      <div>
+      <div className="mx-auto max-w-sm text-center sm:max-w-lg">
         <h3 className="text-lg">{description}</h3>
       </div>
     </a>
