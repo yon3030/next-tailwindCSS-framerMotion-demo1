@@ -13,7 +13,7 @@ const cardVariants = {
   visible: {
     opacity: 1,
     scale: 1,
-    transition: { type: 'spring', duration: 2, delay: 0.2 },
+    transition: { type: 'spring', duration: 2, delay: 0.1 },
   },
   hidden: { opacity: 0, scale: 0.9 },
 }

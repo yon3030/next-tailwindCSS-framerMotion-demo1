@@ -59,7 +59,7 @@ export default function Projects({ posts }: PostsProps) {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0 }}
-              transition={{ type: 'spring', duration: 2, delay: 0.1 }}
+              transition={{ type: 'spring', duration: 2 }}
             >
               Projects.
             </motion.h1>

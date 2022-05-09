@@ -16,16 +16,18 @@ const Header = () => {
         <div>
           <h1 className="flex flex-col text-6xl font-bold text-gray-900 lg:text-8xl">
             <motion.span
-              initial={{ transform: 'scale(0)' }}
-              animate={{ scale: [0, 1.1, 1] }}
-              transition={{ type: 'spring', duration: 0.6, delay: 0.3 }}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0 }}
+              transition={{ type: 'spring', duration: 2 }}
             >
               Vadim
             </motion.span>
             <motion.span
-              initial={{ transform: 'scale(0)' }}
-              animate={{ scale: [0, 1.1, 1] }}
-              transition={{ type: 'spring', duration: 0.8, delay: 0.4 }}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0 }}
+              transition={{ type: 'spring', duration: 2 }}
             >
               Ghedreutan
             </motion.span>
