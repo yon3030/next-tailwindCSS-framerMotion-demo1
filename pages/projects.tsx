@@ -37,14 +37,17 @@ export default function Projects({ posts }: PostsProps) {
             <div>
               <motion.a
                 href="mailto:vadim.ghedreutan@gmail.com"
-                className="bg-red-clr absolute top-0 left-0 flex h-20 w-20 items-center justify-center  
+                className="bg-red-clr group absolute top-0 left-0 flex h-20 w-20 items-center justify-center  
         rounded-full sm:h-28 sm:w-28"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0 }}
                 transition={{ type: 'spring', duration: 2 }}
               >
-                <MdMarkEmailRead className="h-8 w-8 cursor-pointer text-white" />
+                <MdMarkEmailRead
+                  className="h-8 w-8 cursor-pointer text-white transition-transform
+        duration-500 ease-in-out group-hover:scale-150"
+                />
               </motion.a>
             </div>
             <div>
