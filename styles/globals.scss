@@ -41,6 +41,22 @@ body {
   background-color: #E9C3B8;
 }
 
+.bg-color-animation {
+	animation: changeClr 5s infinite alternate linear;
+}
+
+@keyframes changeClr {
+	0% {
+		background-color: #3CAB87;
+	}
+	50% {
+		background-color: #98BEC8;
+	}
+	100% {
+		background-color: #E9C3B8;
+	}
+}
+
 .cta {
   display: flex;
   align-items: center;

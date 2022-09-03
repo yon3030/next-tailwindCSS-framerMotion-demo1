@@ -58,7 +58,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="mx-3 mb-12 mt-8 bg-[#17181C] py-12">
+        <div className="bg-color-animation mx-3 mb-12 mt-8 py-12">
           {/* all projects */}
           <div className="my-10 flex justify-center">
             <a href="/projects" className="cta space-x-2 text-gray-900">
